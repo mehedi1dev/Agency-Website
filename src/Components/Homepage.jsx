@@ -1,4 +1,8 @@
 import React, { useEffect } from "react";
+import Banner from "./HomePage/Banner";
+import FocusedOn from "./HomePage/FocusedOn";
+import FollowStep from "./HomePage/FollowStep";
+import ExpertIn from "./HomePage/ExpertIn";
 import "./css/Homepage.css";
 
 const Homepage = () => {
@@ -31,12 +35,18 @@ const Homepage = () => {
     <div className="horizontalSection">
       <div className="stickyWrapper">
         <div className="elementWrapper">
-          <div className="element">M</div>
-          <div className="element">e</div>
-          <div className="element">h</div>
-          <div className="element">e</div>
-          <div className="element">d</div>
-          <div className="element">i</div>
+          <div className="element">
+            <Banner />
+          </div>
+          <div className="element">
+            <FocusedOn />
+          </div>
+          <div className="element">
+            <ExpertIn />
+          </div>
+          <div className="element">
+            <FollowStep />
+          </div>
         </div>
       </div>
     </div>

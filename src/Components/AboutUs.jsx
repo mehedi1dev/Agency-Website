@@ -1,14 +1,12 @@
 import React from "react";
 
 const AboutUs = () => {
-  const defaultStyle = {
-    width: "100vw",
-    textAlign: "Center",
-  };
   return (
-    <div style={defaultStyle}>
-      <h1>AboutUs</h1>
-      <p>Under Construction</p>
+    <div>
+      <div>Our Mission</div>
+      <div>Our Vision</div>
+      <div>Meet With The Team</div>
+      <div>Why Us ?</div>
     </div>
   );
 };
