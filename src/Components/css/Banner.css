@@ -1,3 +1,89 @@
 .bannerSection {
-  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.bannerSectionLeft {
+  margin-left: 150px;
+  margin-right: 100px;
+}
+.bannerSectionLeft h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.bannerSectionLeft p {
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: justify;
+}
+.bannerSectionLeft .button {
+  display: flex;
+  gap: 20px;
+  margin-top: 60px;
+}
+.bannerSectionLeft .button button {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+.bannerSectionLeft .button > button:first-child {
+  color: #fff;
+  background-color: #1cbcff;
+}
+.bannerSectionLeft .button > button:last-child {
+  color: #000;
+  background-color: #fff;
+}
+.bannerSectionLeft .horizontalLine {
+  margin-top: 90px;
+  background-color: #1cbcff;
+  height: 1px;
+}
+.bannerSectionLeft .hotline {
+  margin-top: 60px;
+}
+.bannerSectionLeft .hotline > p {
+  margin: 0px;
+  font-size: 16px;
+  margin: 30px 0px;
+}
+.bannerSectionLeft .hotline .hotlineNumber {
+  display: flex;
+  align-items: center;
+}
+.bannerSectionLeft .hotline .hotlineNumber .hotlineNumberLogo svg {
+  font-size: 30px;
+  background-color: #fff;
+  vertical-align: bottom;
+  padding: 5px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.bannerSectionLeft .hotline .hotlineNumber h2 {
+  font-size: 20px;
+}
+
+.bannerSectionLeft .hotline .hotlineNumber p {
+  margin: 0px;
+  font-size: 16px;
+}
+.bannerSectionRight {
+  margin-left: -100px;
+}
+.bannerSectionRight > img {
+  width: 40vw;
+}
+.bannerSectionRight .horizontalList {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.bannerSectionRight .horizontalList > p {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
