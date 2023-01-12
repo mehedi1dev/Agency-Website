@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Banner.css";
+import "../css/HomepageCss/Banner.css";
 import BannerImage from "../../img/banner.svg";
 import { CiPhone } from "react-icons/ci";
 

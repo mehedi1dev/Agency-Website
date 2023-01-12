@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/FocusedOn.css";
+import "../css/HomepageCss/FocusedOn.css";
 import { CgWebsite } from "react-icons/cg";
 import { AiOutlineMobile, AiOutlineLineChart } from "react-icons/ai";
 import { MdOutlineDesignServices, MdOutlineAnimation } from "react-icons/md";
