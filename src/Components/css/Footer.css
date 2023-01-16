@@ -1,0 +1,45 @@
+.footerSection {
+  width: 100%;
+  height: 400px;
+  background-color: #222222;
+  color: #fff;
+}
+.footerSection .footerSlogan {
+  margin-left: 200px;
+}
+.footerSection .footerSlogan > h1 {
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+.footerSection .footerSlogan > p {
+  font-size: 20px;
+  color: #7b7b7b;
+}
+.footerSection .footerContact .footerContactTitle {
+  display: flex;
+  align-items: center;
+  padding-top: 75px;
+  margin-left: 200px;
+}
+.footerSection .footerContact .footerContactTitle > h2 {
+  color: #ff4522;
+  text-transform: uppercase;
+}
+.footerSection .footerContact .footerContactTitle .footerHrLine {
+  margin-left: 25px;
+  height: 2px;
+  width: 70vw;
+  background-color: #ff4522;
+}
+.footerSection .footerContact .footerContactDetails {
+  display: flex;
+  gap: 10vw;
+  padding-top: 25px;
+  margin-left: 200px;
+}
+.footerContact .footerContactDetails .footerContactCard {
+  text-align: center;
+}
+.footerContact .footerContactDetails .footerContactCard > h3 {
+  text-transform: uppercase;
+}

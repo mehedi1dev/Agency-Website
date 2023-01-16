@@ -1,14 +1,24 @@
 import React from "react";
 
 const Services = () => {
-  const defaultStyle = {
-    width: "100vw",
-    textAlign: "Center",
-  };
   return (
-    <div style={defaultStyle}>
-      <h1>Services</h1>
-      <p>Under Construction</p>
+    <div className="servicesSection">
+      <div className="servicesBanner">
+        <div className="servicesBannerLeft">
+          <h1>Better services for your user</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+            tempora quaerat, impedit animi laboriosam modi.
+          </p>
+        </div>
+        <div className="servicesBannerRight">
+          <h1>Better services for your user</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+            tempora quaerat, impedit animi laboriosam modi.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

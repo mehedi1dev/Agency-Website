@@ -1,0 +1,44 @@
+.followSection {
+  margin-top: 100px;
+  text-align: center;
+}
+.followSection > h2 {
+  color: #00bfa6;
+  text-transform: uppercase;
+}
+.followSection > p {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.followSection .followSectionTwo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+.followSection .followSectionTwo .followSectionLeft {
+  display: flex;
+  padding: 100px;
+}
+.followSection .followSectionTwo .followSectionLeft > img {
+  width: 30vw;
+}
+.followSection .followSectionTwo .followSectionRight {
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+.followSection .followSectionTwo .followSectionRight .followCard {
+  padding: 50px 0px;
+}
+.followSectionRight .followCard > svg {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.followSectionRight .followCard > p {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
