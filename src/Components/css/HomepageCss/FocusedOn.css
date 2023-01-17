@@ -21,6 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+  justify-content: center;
 }
 .focusSectionRight .card {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -46,4 +47,49 @@
 }
 .focusSectionRight .card:last-child {
   background-color: #ff4522;
+}
+
+@media screen and (max-width: 1280px) {
+  .focusSection {
+    flex-direction: column;
+  }
+  .focusSectionLeft {
+    width: 100%;
+  }
+  .focusSectionRight {
+    margin-top: 50px;
+    width: 800px;
+  }
+  .focusSectionRight .card {
+    height: 300px;
+    width: 200px;
+  }
+  .focusSectionRight .card > p {
+    font-size: 24px;
+  }
+  .focusSectionRight .cardLogo {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .focusSectionRight {
+    width: 85%;
+    margin: 50px auto;
+  }
+  .focusSectionRight .card {
+    height: 250px;
+    width: 150px;
+  }
+  .focusSectionRight .card > p {
+    font-size: 18px;
+  }
+  .focusSectionRight .cardLogo {
+    font-size: 40px;
+  }
+  .focusSectionLeft > h2 {
+    font-size: 24px;
+  }
+  .focusSectionLeft > p {
+    font-size: 30px;
+  }
 }

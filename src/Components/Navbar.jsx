@@ -5,7 +5,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav>
-      <ul>
+      <input type="checkbox" id="check" />
+      <label htmlFor="check" id="checkIcon">
+        ≡
+      </label>
+      <ul className="menuList">
         <li>
           <Link to="/">Home</Link>
         </li>

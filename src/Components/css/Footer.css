@@ -4,42 +4,61 @@
   background-color: #222222;
   color: #fff;
 }
-.footerSection .footerSlogan {
-  margin-left: 200px;
+.footerSlogan {
+  margin-left: 100px;
+  margin-right: 100px;
 }
-.footerSection .footerSlogan > h1 {
+.footerSlogan > h1 {
   padding-top: 50px;
   text-transform: uppercase;
 }
-.footerSection .footerSlogan > p {
+.footerSlogan > p {
   font-size: 20px;
   color: #7b7b7b;
 }
-.footerSection .footerContact .footerContactTitle {
+.footerContactTitle {
   display: flex;
   align-items: center;
   padding-top: 75px;
-  margin-left: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
-.footerSection .footerContact .footerContactTitle > h2 {
+.footerContactTitle > h2 {
   color: #ff4522;
   text-transform: uppercase;
 }
-.footerSection .footerContact .footerContactTitle .footerHrLine {
+.footerHrLine {
   margin-left: 25px;
   height: 2px;
   width: 70vw;
   background-color: #ff4522;
 }
-.footerSection .footerContact .footerContactDetails {
+.footerContactDetails {
   display: flex;
   gap: 10vw;
   padding-top: 25px;
-  margin-left: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .footerContact .footerContactDetails .footerContactCard {
   text-align: center;
 }
 .footerContact .footerContactDetails .footerContactCard > h3 {
   text-transform: uppercase;
+}
+@media screen and (max-width: 1280px) {
+  .footerSection {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .footerContactDetails,
+  .footerSlogan,
+  .footerContactTitle {
+    margin: 10px;
+    margin-left: 25px;
+  }
+  .footerContactDetails {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 }

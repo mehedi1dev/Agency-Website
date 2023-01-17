@@ -12,33 +12,71 @@
   font-weight: bold;
   text-transform: uppercase;
 }
-.followSection .followSectionTwo {
+.followSectionTwo {
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
 }
-.followSection .followSectionTwo .followSectionLeft {
+.followSectionLeft {
   display: flex;
   padding: 100px;
 }
-.followSection .followSectionTwo .followSectionLeft > img {
+.followSectionLeft > img {
   width: 30vw;
 }
-.followSection .followSectionTwo .followSectionRight {
+.followSectionRight {
   padding: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
 }
-.followSection .followSectionTwo .followSectionRight .followCard {
+.followCard {
   padding: 50px 0px;
 }
-.followSectionRight .followCard > svg {
+.followCard > svg {
   font-size: 50px;
   margin-bottom: 25px;
 }
-.followSectionRight .followCard > p {
+.followCard > p {
   font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 1280px) {
+  .followSectionTwo {
+    grid-template-columns: 1fr;
+  }
+  .followSectionLeft {
+    display: none;
+  }
+  .followSectionRight {
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .followCard {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .followSection > h2 {
+    font-size: 18px;
+  }
+  .followSection > p {
+    font-size: 30px;
+  }
+  .followSectionRight {
+    width: 85%;
+  }
+  .followCard {
+    width: 150px;
+  }
+  .followCard > p {
+    font-size: 18px;
+  }
 }

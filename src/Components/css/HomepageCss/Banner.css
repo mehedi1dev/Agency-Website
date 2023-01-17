@@ -8,11 +8,11 @@
   margin-left: 150px;
   margin-right: 100px;
 }
-.bannerSectionLeft h1 {
+.bannerSectionLeft > h1 {
   font-size: 50px;
   text-transform: uppercase;
 }
-.bannerSectionLeft p {
+.bannerSectionLeft > p {
   margin-top: 50px;
   font-size: 20px;
   text-align: justify;
@@ -86,4 +86,25 @@
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 1400px) {
+  .bannerSectionLeft > h1 {
+    font-size: 36px;
+    margin-top: 30px;
+  }
+  .bannerSectionLeft > p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .bannerSection {
+    grid-template-columns: 1fr;
+  }
+  .bannerSectionRight {
+    display: none;
+  }
+  .bannerSectionLeft {
+    margin-left: 20px;
+  }
 }
