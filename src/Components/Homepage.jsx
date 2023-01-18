@@ -7,7 +7,7 @@ import "./css/Homepage.css";
 
 const Homepage = () => {
   const style = {
-    height: "100vh",
+    height: "100%",
     width: "100%",
   };
   const [matches, setMatches] = useState(

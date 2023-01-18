@@ -105,12 +105,8 @@
     flex-direction: column;
     align-items: center;
   }
-  .bannerSectionRight > img {
-    display: none;
-  }
   .bannerSectionRight {
-    width: 90%;
-    margin: 0px;
+    display: none;
   }
   .bannerSectionLeft {
     margin: 75px;
