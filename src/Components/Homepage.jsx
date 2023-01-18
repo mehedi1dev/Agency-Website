@@ -8,7 +8,7 @@ import "./css/Homepage.css";
 const Homepage = () => {
   const style = {
     height: "100vh",
-    width: "90vw",
+    width: "100%",
   };
   const [matches, setMatches] = useState(
     window.matchMedia("(min-width: 1400px)")

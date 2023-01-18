@@ -56,3 +56,29 @@
 .whyUsCard > h2 {
   text-transform: uppercase;
 }
+@media screen and (max-width: 1280px) {
+  .aboutSubSection.left {
+    padding-right: 50px;
+  }
+  .aboutSubSection.right {
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .aboutSubSection.left {
+    padding-right: 20px;
+  }
+  .aboutSubSection.right {
+    padding-left: 20px;
+  }
+  .whyUsCards {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .whyUsCard > img {
+    width: 50px;
+  }
+  .whyUsCard > h2 {
+    font-size: 24px;
+  }
+}

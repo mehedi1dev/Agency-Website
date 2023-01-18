@@ -111,3 +111,30 @@
   color: #fff;
   font-weight: bold;
 }
+
+@media screen and (max-width: 1400px) {
+  .servicesCards {
+    padding: 50px 100px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .servicesBanner {
+    grid-template-columns: 1fr;
+  }
+  .servicesBannerRight {
+    display: none;
+  }
+  .servicesBannerLeft {
+    padding-left: 75px;
+    justify-content: center;
+  }
+  .servicesCards {
+    padding: 40px;
+  }
+  .serviceCard > h2 {
+    font-size: 20px;
+  }
+  .serviceCard > p {
+    font-size: 16px;
+  }
+}

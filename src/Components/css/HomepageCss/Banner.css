@@ -99,12 +99,28 @@
 }
 @media screen and (max-width: 1280px) {
   .bannerSection {
-    grid-template-columns: 1fr;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
-  .bannerSectionRight {
+  .bannerSectionRight > img {
     display: none;
   }
+  .bannerSectionRight {
+    width: 90%;
+    margin: 0px;
+  }
   .bannerSectionLeft {
-    margin-left: 20px;
+    margin: 75px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .bannerSectionLeft > h1 {
+    font-size: 26px;
+  }
+  .bannerSectionLeft > p {
+    font-size: 16px;
   }
 }

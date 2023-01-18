@@ -64,3 +64,18 @@ textarea {
   border-radius: 10px;
   margin-bottom: 100px;
 }
+
+@media screen and (max-width: 740px) {
+  .contactDetails {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+  .contactBox > input,
+  textarea {
+    width: 90%;
+  }
+  .contactBox > button {
+    width: 94%;
+  }
+}
