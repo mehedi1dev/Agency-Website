@@ -10,14 +10,14 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div>
-      <Navbar />
-      <Routes>
+      Something new is coming.
+      {/* <Routes>
         <Route path="/Agency-Website/" element={<Homepage />} />
         <Route path="/Agency-Website/AboutUs" element={<AboutUs />} />
         <Route path="/Agency-Website/ContactUs" element={<ContactUs />} />
         <Route path="/Agency-Website/Services" element={<Services />} />
       </Routes>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
