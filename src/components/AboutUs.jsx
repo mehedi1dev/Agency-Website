@@ -48,7 +48,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="partStyleOne">
-            <div className="cardStyleColumn">
+            <div className="cardStyleRow">
               <div className="card">
                 <img src={iconUX} alt="iconUx" />
                 <div className="cardText">

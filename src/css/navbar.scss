@@ -3,8 +3,10 @@
 nav {
   background-color: $color10Light;
   position: sticky;
+  height: fit-content;
   top: 0;
   .navContainer {
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,12 +31,15 @@ nav {
         gap: 2rem;
         list-style: none;
         li {
-          border-bottom: 0.0625rem solid $color10;
           a {
             font-size: 1.1rem;
             text-decoration: none;
             margin: 0;
             padding: 0;
+          }
+          :hover {
+            border-bottom: 0.0625rem solid $color10;
+            transition: 0.3s;
           }
         }
       }

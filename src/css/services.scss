@@ -1,0 +1,23 @@
+@import "_colors";
+#services {
+  background-color: $color30;
+  .servicesSection {
+    h1 {
+      text-align: center;
+      width: max-content;
+      margin: auto;
+      text-transform: uppercase;
+      font-weight: 800;
+
+      padding: 0.5rem 1rem;
+      border-bottom: 3px solid;
+      border-color: $color10;
+    }
+    p {
+      max-width: 992px;
+      margin: 1rem auto;
+      text-align: justify;
+      text-align-last: center;
+    }
+  }
+}

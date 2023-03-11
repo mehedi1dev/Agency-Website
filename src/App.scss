@@ -26,8 +26,7 @@ body,
 h1,
 h2,
 h3,
-p,
-a {
+p {
   margin: 0;
   padding: 0;
 }
@@ -46,6 +45,17 @@ body::-webkit-scrollbar {
   width: 0;
   height: 0;
 }
+#home {
+  padding: 10rem 0rem;
+}
+#about,
+#services,
+#extra,
+#team,
+#portfolio,
+#contact {
+  padding: 5rem 0rem;
+}
 
 //global style
 
@@ -54,9 +64,10 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 4rem;
   .partStyleOne {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     img {
@@ -65,7 +76,7 @@ body::-webkit-scrollbar {
     }
   }
   .partStyleTwo {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,29 +87,49 @@ body::-webkit-scrollbar {
   }
 }
 
-//Card Style Column
+//Card Style
 .cardStyleColumn {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
   .card {
-    border-radius: 1rem;
-    background-color: $color30;
-    margin: 1rem;
-    padding: 1rem 2rem;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    width: 14rem;
+    background-color: $color60;
     display: flex;
     align-items: center;
-    gap: 2rem;
-    img {
-      width: 3rem;
-      height: 100%;
-    }
+    flex-direction: column;
+    padding: 4rem 2rem;
+    border-radius: 1.5rem 0rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
     .cardText {
-      p {
-        margin: 0.25rem 0;
-        font-size: 1rem;
+      text-align: center;
+      margin-top: 2rem;
+      h3 {
+        font-family: "roboto";
       }
+      p {
+        font-size: 1rem;
+        text-align: justify;
+        text-align-last: center;
+      }
+      .linkLearnMore {
+        margin-top: 2.5rem;
+        a {
+          font-size: 1.1rem;
+          font-family: "roboto";
+          text-decoration: none;
+          font-weight: 500;
+        }
+        a:hover {
+          color: $color10;
+        }
+      }
+    }
+    img {
+      margin-top: -2rem;
+      width: 6rem;
     }
   }
 }
@@ -125,6 +156,31 @@ body::-webkit-scrollbar {
         margin: 0.25rem 0;
         font-size: 1rem;
         font-weight: 600;
+      }
+    }
+  }
+}
+.cardStyleRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .card {
+    border-radius: 1rem;
+    background-color: $color30;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    img {
+      width: 3rem;
+      height: 100%;
+    }
+    .cardText {
+      p {
+        margin: 0.25rem 0;
+        font-size: 1rem;
       }
     }
   }

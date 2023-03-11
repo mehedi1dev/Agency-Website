@@ -1,9 +1,9 @@
-@import "./colors";
+@import "_colors";
 #home {
   background-color: $color10Light;
-  border-radius: 0 0 0 15rem;
+  border-radius: 0 0 0 10rem;
   .homeContainer {
-    height: 75vh;
+    height: max-content;
     .partStyleOne {
       h1 {
         text-transform: uppercase;

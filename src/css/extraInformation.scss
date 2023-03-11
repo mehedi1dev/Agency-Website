@@ -1,0 +1,31 @@
+@import "_colors";
+#extra {
+  background-color: $fontColor;
+  color: $color30;
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    .card {
+      width: max-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      img {
+        width: 4.2rem;
+      }
+      p {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      h3 {
+        font-size: 1.1rem;
+        font-weight: 400;
+      }
+    }
+  }
+}
