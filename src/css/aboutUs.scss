@@ -1,0 +1,54 @@
+@import "./colors";
+#about {
+  margin-top: 5rem;
+  .aboutContainer {
+    .aboutText {
+      h1 {
+        text-align: center;
+        width: max-content;
+        margin: auto;
+        text-transform: uppercase;
+        font-weight: 800;
+
+        padding: 0.5rem 1rem;
+        border-bottom: 1px solid;
+        border-left: 1px solid;
+        border-color: $color10;
+        border-radius: 0 0 0 1rem;
+      }
+      p {
+        max-width: 992px;
+        margin: 1rem auto;
+        text-align: center;
+      }
+    }
+    .howWeWork {
+      .workText {
+        h2 {
+          margin-top: 2rem;
+          text-transform: uppercase;
+        }
+        p {
+          margin: 1rem 0rem;
+          font-size: 1.1rem;
+          text-align: justify;
+        }
+        img {
+          margin: auto;
+          margin-top: 1rem;
+        }
+      }
+    }
+    .whyChooseUs {
+      margin-top: 2rem;
+      h2 {
+        text-transform: uppercase;
+      }
+      p {
+        margin: 1rem 0rem;
+        font-size: 1.1rem;
+        text-align: justify;
+      }
+    }
+  }
+}

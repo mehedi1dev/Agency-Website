@@ -4,6 +4,24 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: $color60;
+  color: $fontColor;
+  font-family: "Nunito Sans";
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+p {
+  font-size: 1.1rem;
+}
+
 body,
 h1,
 h2,
@@ -14,40 +32,100 @@ a {
   padding: 0;
 }
 
-body {
-  background: $color60;
-  color: $color30;
-  font-family: "Nunito Sans";
-}
-.container {
-  max-width: 90rem;
+.container90rem {
+  max-width: 88rem;
+  padding: 0 1rem;
   margin: auto;
 }
 .bred {
   border: 1px solid red;
 }
+
+//Hiding ScrollBar
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 //global style
 
-//Two Section with one image part
-.twoSectionWithOneImage {
+//Two Section
+.twoSection {
   display: flex;
   justify-content: center;
   align-items: center;
-  .textPart {
-    width: 100%;
+  gap: 4rem;
+  .partStyleOne {
+    width: 50%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    padding: 3rem 2rem;
+    img {
+      max-width: 50%;
+      max-height: 50%;
+    }
   }
-  .imagePart {
-    width: 100%;
+  .partStyleTwo {
+    width: 50%;
     display: flex;
     justify-content: center;
-    padding: 3rem 2rem;
+    align-items: center;
     img {
       max-width: 100%;
       max-height: 100%;
+    }
+  }
+}
+
+//Card Style Column
+.cardStyleColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .card {
+    border-radius: 1rem;
+    background-color: $color30;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    img {
+      width: 3rem;
+      height: 100%;
+    }
+    .cardText {
+      p {
+        margin: 0.25rem 0;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+.cardStyleColumnTwo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  .card {
+    min-width: 15rem;
+    border-radius: 1rem;
+    background-color: $color30;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    img {
+      width: 2rem;
+      height: 100%;
+    }
+    .cardText {
+      p {
+        margin: 0.25rem 0;
+        font-size: 1rem;
+        font-weight: 600;
+      }
     }
   }
 }

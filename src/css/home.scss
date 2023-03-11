@@ -1,33 +1,36 @@
 @import "./colors";
 #home {
   background-color: $color10Light;
-  border-radius: 0 0 20rem 0;
-
-  .textPart {
-    h1 {
-      text-transform: uppercase;
-      margin: 1rem 0rem;
-      font-weight: 800;
-    }
-    p {
-      text-align: justify;
-      font-size: 1.2rem;
-      margin: 1rem 0rem;
-    }
-    .aboutUsLink {
-      margin-top: 2rem;
-      background-color: $color10;
-      width: fit-content;
-      padding: 1rem 2rem;
-      border: none;
-      border-radius: 0.5rem;
-      a {
+  border-radius: 0 0 0 15rem;
+  .homeContainer {
+    height: 75vh;
+    .partStyleOne {
+      h1 {
         text-transform: uppercase;
-        font-size: 1.25rem;
-        font-weight: 700;
-        color: $color60;
-        font-family: "roboto";
-        text-decoration: none;
+        margin: 1rem 0rem;
+        font-weight: 800;
+        font-size: 2rem;
+      }
+      p {
+        text-align: justify;
+        font-size: 1.1rem;
+        margin: 1rem 0rem;
+      }
+      .aboutUsLink {
+        margin-top: 2rem;
+        background-color: $color10;
+        width: fit-content;
+        padding: 1rem 2rem;
+        border: none;
+        border-radius: 0.5rem;
+        a {
+          text-transform: uppercase;
+          font-size: 1.25rem;
+          font-weight: 700;
+          color: $color60;
+          font-family: "roboto";
+          text-decoration: none;
+        }
       }
     }
   }
