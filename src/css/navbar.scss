@@ -1,0 +1,41 @@
+@import "_colors";
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color10Light;
+  position: sticky;
+  top: 0;
+  .logo {
+    margin-left: 1rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: $color10;
+    }
+  }
+  .menuButton {
+    display: none;
+  }
+  .navLinks {
+    ul {
+      margin-right: 2rem;
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      li {
+        border-bottom: 0.0625rem solid $color10;
+        a {
+          font-size: 1.2rem;
+          text-decoration: none;
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+  }
+}

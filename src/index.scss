@@ -1,0 +1,20 @@
+:root {
+  --primary-text--color: #000;
+  --primary-bg--color: #fff;
+}
+
+body.dark-theme {
+  --primary-text--color: #fff;
+  --primary-bg--color: #1b252b;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: var(--primary-bg--color);
+  color: var(--primary-text--color);
+}
+
+a {
+  color: var(--primary-text--color);
+}

@@ -1,25 +1,17 @@
-import "./App.css";
-import { Route, Routes } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import Homepage from "./Components/Homepage";
-import AboutUs from "./Components/AboutUs";
-import Services from "./Components/Services";
-import ContactUs from "./Components/ContactUs";
-import Footer from "./Components/Footer";
+import React from "react";
+import "./App.scss";
 
-function App() {
+import Layout from "./components/Layout";
+import Home from "./components/Home";
+
+const App = () => {
   return (
     <div>
-      Something new is coming.
-      {/* <Routes>
-        <Route path="/Agency-Website/" element={<Homepage />} />
-        <Route path="/Agency-Website/AboutUs" element={<AboutUs />} />
-        <Route path="/Agency-Website/ContactUs" element={<ContactUs />} />
-        <Route path="/Agency-Website/Services" element={<Services />} />
-      </Routes>
-      <Footer /> */}
+      <Layout>
+        <Home />
+      </Layout>
     </div>
   );
-}
+};
 
 export default App;
