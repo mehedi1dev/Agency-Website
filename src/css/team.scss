@@ -1,0 +1,32 @@
+@import "_colors";
+#team {
+  .teamSection {
+    overflow: hidden;
+    h1 {
+      text-align: center;
+      width: max-content;
+      margin: auto;
+      text-transform: uppercase;
+      font-weight: 800;
+
+      padding: 0.5rem 1rem;
+      border-bottom: 3px solid;
+      border-color: $color10;
+    }
+    h2,
+    h3,
+    p {
+      margin: 1rem 0;
+    }
+    .cardStyleColumn {
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      transition: 0.5s;
+      .card {
+        img {
+          width: 250px;
+        }
+      }
+    }
+  }
+}
