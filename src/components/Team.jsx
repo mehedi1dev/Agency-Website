@@ -52,7 +52,7 @@ const Team = () => {
           <div className="card">
             <img src="https://robohash.org/4" alt="user" />
             <div className="cardText">
-              <h2>Bot 104</h2>
+              <h2>BOT 104</h2>
               <h3>Back-end Developer</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
