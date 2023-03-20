@@ -7,16 +7,6 @@ const Contact = () => {
       <div className="contactSection container90rem">
         <h1>Contact Us</h1>
         <div className="twoSection">
-          <form className="partStyleOne">
-            <label>Name</label>
-            <input type="text" placeholder="Name" required />
-            <label>Email</label>
-            <input type="email" placeholder="Email" required />
-            <label>Message</label>
-            <textarea cols="30" rows="10"></textarea>
-            <input type="submit" className="submitButton" />
-          </form>
-
           <div className="partStyleOne info">
             <h2>Lets here from you!</h2>
             <p>
@@ -43,6 +33,15 @@ const Contact = () => {
               <strong>Facebook</strong>
             </span>
           </div>
+          <form className="partStyleOne">
+            <label>Name</label>
+            <input type="text" placeholder="Name" required />
+            <label>Email</label>
+            <input type="email" placeholder="Email" required />
+            <label>Message</label>
+            <textarea cols="30" rows="10"></textarea>
+            <input type="submit" className="submitButton" />
+          </form>
         </div>
       </div>
     </div>

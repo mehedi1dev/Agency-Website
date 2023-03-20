@@ -99,3 +99,95 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  #portfolio {
+    .portfolioSection {
+      .gallery {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(19, 5vw);
+        .gallery__item--1 {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 1;
+          grid-row-end: 4;
+        }
+        .gallery__item--2 {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          grid-row-start: 1;
+          grid-row-end: 4;
+        }
+        .gallery__item--3 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 12;
+          grid-row-end: 16;
+        }
+        .gallery__item--4 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 4;
+          grid-row-end: 8;
+        }
+        .gallery__item--5 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 8;
+          grid-row-end: 12;
+        }
+        .gallery__item--6 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 16;
+          grid-row-end: 20;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  #portfolio {
+    .portfolioSection {
+      .gallery {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(24, 5vw);
+        .gallery__item--1 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 1;
+          grid-row-end: 5;
+        }
+        .gallery__item--2 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 5;
+          grid-row-end: 9;
+        }
+        .gallery__item--3 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 17;
+          grid-row-end: 21;
+        }
+        .gallery__item--4 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 9;
+          grid-row-end: 13;
+        }
+        .gallery__item--5 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 13;
+          grid-row-end: 17;
+        }
+        .gallery__item--6 {
+          grid-column-start: 1;
+          grid-column-end: 5;
+          grid-row-start: 21;
+          grid-row-end: 25;
+        }
+      }
+    }
+  }
+}

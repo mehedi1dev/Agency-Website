@@ -47,7 +47,7 @@ body::-webkit-scrollbar {
   height: 0;
 }
 #home {
-  padding: 10rem 0rem;
+  padding: 7rem 0rem;
 }
 #about,
 #services,
@@ -183,6 +183,37 @@ body::-webkit-scrollbar {
       p {
         margin: 0.25rem 0;
         font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #home {
+    padding: 5rem 0rem;
+  }
+  .twoSection {
+    .partStyleOne {
+      width: 90%;
+    }
+  }
+  .partStyleTwo {
+    width: 90%;
+  }
+  .cardStyleRow {
+    .card {
+      border-radius: 1rem;
+      background-color: $color30;
+      margin: 1rem;
+      padding: 2rem 1rem;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify;
+      gap: 2rem;
+      h3 {
+        text-align: center;
       }
     }
   }

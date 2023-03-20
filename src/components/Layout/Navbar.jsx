@@ -8,10 +8,12 @@ const Navbar = () => {
         <div className="logo">
           <a href="#home">AGENCY</a>
         </div>
-        <div className="menuButton">
-          <input type="checkbox" id="menu" />
-          <label htmlFor="menu">🟰</label>
-        </div>
+
+        <input type="checkbox" id="menu" />
+        <label htmlFor="menu" className="menu">
+          🟰
+        </label>
+
         <div className="navLinks">
           <ul>
             <li>

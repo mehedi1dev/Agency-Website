@@ -22,7 +22,10 @@ nav {
         color: $color10;
       }
     }
-    .menuButton {
+    #menu {
+      display: none;
+    }
+    .menu {
       display: none;
     }
     .navLinks {
@@ -42,6 +45,34 @@ nav {
             border-bottom: 0.0625rem solid $color10;
             transition: 0.3s;
           }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    .navContainer {
+      .menu {
+        display: contents;
+      }
+
+      #menu:checked ~ .navLinks {
+        top: 5rem;
+      }
+      .navLinks {
+        top: -50rem;
+        left: 0;
+        position: fixed;
+        background-color: $color10Light;
+        width: 100%;
+        border-bottom: 1px solid $color10;
+        transition: 0.7s;
+        ul {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 1rem;
         }
       }
     }

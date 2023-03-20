@@ -21,20 +21,27 @@ export const sliderFunction = (
   const interval_Time = _intervalTime;
   let translateXByPixel = 0;
   const gap = _gap;
+  let stepCount = 0;
 
+  console.log(cards_Slider.children.length);
+  console.log(stepCount);
   cards_Slider.style.gap = `${gap}px`;
   const translateIncreaseByFunction = () => {
-    if (translateXByPixel > cards_Slider.offsetWidth) {
+    if (stepCount + 2 >= cards_Slider.children.length) {
       translateXByPixel = 0;
+      stepCount = 0;
     } else {
+      stepCount++;
       translateXByPixel += card_Slider.offsetWidth + gap;
     }
     return translateXByPixel;
   };
   const translateDecreaseByFunction = () => {
-    if (translateXByPixel > card_Slider.offsetWidth) {
+    if (stepCount + 2 >= cards_Slider.children.length) {
       translateXByPixel -= card_Slider.offsetWidth + gap;
+      stepCount--;
     } else {
+      stepCount = 0;
       translateXByPixel = 0;
     }
     return translateXByPixel;
