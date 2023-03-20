@@ -1,0 +1,20 @@
+@import "_colors";
+
+footer {
+  background-color: $fontColor;
+  color: $color30;
+  position: sticky;
+  height: fit-content;
+  top: 0;
+  z-index: 5;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "roboto";
+  h2 {
+    a {
+      color: $color10;
+
+      text-decoration: none;
+    }
+  }
+}

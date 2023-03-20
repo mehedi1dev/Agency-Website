@@ -5,6 +5,7 @@ nav {
   position: sticky;
   height: fit-content;
   top: 0;
+  z-index: 5;
   .navContainer {
     height: 5rem;
     display: flex;

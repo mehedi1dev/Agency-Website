@@ -7,6 +7,7 @@ import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
 import ExtraInformation from "./components/ExtraInformation";
 import Team from "./components/Team";
+import Portfolio from "./components/Portfolio";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Services />
         <ExtraInformation />
         <Team />
+        <Portfolio />
       </Layout>
     </div>
   );

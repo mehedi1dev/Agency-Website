@@ -26,7 +26,8 @@ body,
 h1,
 h2,
 h3,
-p {
+p,
+figure {
   margin: 0;
   padding: 0;
 }
@@ -53,7 +54,8 @@ body::-webkit-scrollbar {
 #extra,
 #team,
 #portfolio,
-#contact {
+#contact,
+#footer {
   padding: 5rem 0rem;
 }
 

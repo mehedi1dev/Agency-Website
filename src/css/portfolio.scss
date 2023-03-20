@@ -1,0 +1,101 @@
+@import "_colors";
+#portfolio {
+  .portfolioSection {
+    h1 {
+      text-align: center;
+      width: max-content;
+      margin: auto;
+      text-transform: uppercase;
+      font-weight: 800;
+      padding: 0.5rem 1rem;
+      border-bottom: 3px solid;
+      border-color: $color10;
+    }
+    .gallery {
+      margin-top: 1rem;
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(8, 5vw);
+      gap: 1rem;
+
+      .gallery__item:hover .gallery__img {
+        opacity: 0.3;
+      }
+      .gallery__item:hover .hoverText {
+        opacity: 1;
+      }
+      .gallery__item {
+        background-color: $fontColor;
+        position: relative;
+        width: 100%;
+        .gallery__img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+        .hoverText {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+          z-index: 2;
+          color: $color60;
+          transition: 0.5s ease;
+          opacity: 0;
+          h2 {
+            margin-bottom: 1rem;
+            font-family: "roboto";
+            text-transform: uppercase;
+          }
+          a {
+            background-color: $color10;
+            padding: 0 2rem;
+            border-radius: 0.2rem;
+            font-weight: 600;
+            color: $color60;
+            text-decoration: none;
+            font-size: 1.2rem;
+          }
+        }
+      }
+      .gallery__item--1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+      .gallery__item--2 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+      .gallery__item--3 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 6;
+      }
+      .gallery__item--4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 6;
+      }
+      .gallery__item--5 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 9;
+      }
+      .gallery__item--6 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 6;
+        grid-row-end: 9;
+      }
+    }
+  }
+}
