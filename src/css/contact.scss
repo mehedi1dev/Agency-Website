@@ -1,0 +1,74 @@
+@import "_colors";
+#contact {
+  .contactSection {
+    h1 {
+      text-align: center;
+      width: max-content;
+      margin: auto;
+      text-transform: uppercase;
+      font-weight: 800;
+      padding: 0.5rem 1rem;
+      border-bottom: 3px solid;
+      border-color: $color10;
+      margin-bottom: 1.5rem;
+    }
+    .twoSection {
+      background-color: $color30;
+      border-radius: 1rem;
+      align-items: flex-start;
+      form {
+        font-family: "roboto";
+        label {
+          margin-top: 1rem;
+          font-weight: 600;
+        }
+        input {
+          margin-top: 0.5rem;
+          height: 2rem;
+        }
+        textarea {
+          padding: 0.5rem 0.1rem;
+        }
+        input:last-child {
+          margin: 2rem 0;
+          width: 50%;
+          height: 3rem;
+          border: none;
+          color: $color60;
+          font-weight: 600;
+          font-size: 1rem;
+          background-color: $color10;
+          border-radius: 0.5rem;
+        }
+      }
+      .info {
+        h2 {
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
+        p {
+          margin-bottom: 1rem;
+        }
+        p:last-of-type {
+          margin-bottom: 2rem;
+        }
+        h3 {
+          margin: 1rem 0;
+          margin-bottom: 2rem;
+        }
+        span {
+          margin: 0.5rem 0;
+          font-size: 1.2rem;
+        }
+        span:last-of-type {
+          margin-top: 1rem;
+          color: $color10;
+          strong {
+            cursor: pointer;
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
