@@ -1,24 +1,34 @@
 {
   "files": {
-    "main.css": "/Agency-Website/static/css/main.8d093861.css",
-    "main.js": "/Agency-Website/static/js/main.75359e9f.js",
-    "static/media/mobile.png": "/Agency-Website/static/media/mobile.7e555b688bb31ca52b28.png",
-    "static/media/security.png": "/Agency-Website/static/media/security.d8bd479463ff1560003d.png",
-    "static/media/domain.png": "/Agency-Website/static/media/domain.bfa1b7205193ca22564c.png",
-    "static/media/customer.png": "/Agency-Website/static/media/customer.6a49f05410de1acf3787.png",
-    "static/media/priority.png": "/Agency-Website/static/media/priority.d957bb07a3d916ecabf2.png",
-    "static/media/banner.svg": "/Agency-Website/static/media/banner.4c6728f4d1527529d8aee17ac4dae0bc.svg",
-    "static/media/web.png": "/Agency-Website/static/media/web.83a9483beeab21c411db.png",
-    "static/media/illustration.png": "/Agency-Website/static/media/illustration.5765231d0fc1abffddea.png",
-    "static/media/animation.png": "/Agency-Website/static/media/animation.9147c50cfde5675b17b8.png",
-    "static/media/step.svg": "/Agency-Website/static/media/step.c6fbea7b89b370eecec93a2d21bc4c75.svg",
-    "static/media/services.svg": "/Agency-Website/static/media/services.7cf275ff6124bcda7afacc341302c7ec.svg",
+    "main.css": "/Agency-Website/static/css/main.39139ecb.css",
+    "main.js": "/Agency-Website/static/js/main.0d1b1176.js",
+    "static/media/1.jpg": "/Agency-Website/static/media/1.34cdcf354284510433ca.jpg",
+    "static/media/3.jpg": "/Agency-Website/static/media/3.6ab16d01f14483a7e45e.jpg",
+    "static/media/andoirdDevelopment.png": "/Agency-Website/static/media/andoirdDevelopment.5b6a7a0dd026c76cdf62.png",
+    "static/media/5.jpg": "/Agency-Website/static/media/5.bdc962fdc4f25ae1c30b.jpg",
+    "static/media/6.jpg": "/Agency-Website/static/media/6.d36e3e627aad6fb5b82a.jpg",
+    "static/media/client.png": "/Agency-Website/static/media/client.096c2c8d10d3e91110ac.png",
+    "static/media/webDevelopment.png": "/Agency-Website/static/media/webDevelopment.cb18ec91fb7080cb86d9.png",
+    "static/media/team.png": "/Agency-Website/static/media/team.1e52b6fa242aa83d1c6e.png",
+    "static/media/implementation.png": "/Agency-Website/static/media/implementation.2e16e7b2e7ceb920ab52.png",
+    "static/media/done.png": "/Agency-Website/static/media/done.2250c9c71838a12c4b01.png",
+    "static/media/repeat.png": "/Agency-Website/static/media/repeat.2f868f4aa506464089f4.png",
+    "static/media/2.jpg": "/Agency-Website/static/media/2.74efa242563d1ada0702.jpg",
+    "static/media/4.jpg": "/Agency-Website/static/media/4.82428200a164d33da5b2.jpg",
+    "static/media/webDesign.png": "/Agency-Website/static/media/webDesign.eb741e6948f608f27aa2.png",
+    "static/media/deploy.png": "/Agency-Website/static/media/deploy.3ed86633d4c142006788.png",
+    "static/media/support.png": "/Agency-Website/static/media/support.1e7357adf7b41dc2c08d.png",
+    "static/media/ux-design.png": "/Agency-Website/static/media/ux-design.fd84e9c1add2e96a1c0e.png",
+    "static/media/work.svg": "/Agency-Website/static/media/work.5024053a987e6fddd1cebd441d420c73.svg",
+    "static/media/check.png": "/Agency-Website/static/media/check.0ad340259a8c140a65cd.png",
+    "static/media/how.svg": "/Agency-Website/static/media/how.86279fbb9b79eb2e2f10d978d2b9d71b.svg",
+    "static/media/whyChooseUs.svg": "/Agency-Website/static/media/whyChooseUs.a284fe580c6b291dc4d61e7876dec560.svg",
     "index.html": "/Agency-Website/index.html",
-    "main.8d093861.css.map": "/Agency-Website/static/css/main.8d093861.css.map",
-    "main.75359e9f.js.map": "/Agency-Website/static/js/main.75359e9f.js.map"
+    "main.39139ecb.css.map": "/Agency-Website/static/css/main.39139ecb.css.map",
+    "main.0d1b1176.js.map": "/Agency-Website/static/js/main.0d1b1176.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d093861.css",
-    "static/js/main.75359e9f.js"
+    "static/css/main.39139ecb.css",
+    "static/js/main.0d1b1176.js"
   ]
 }
